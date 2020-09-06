@@ -3,7 +3,7 @@ import express from 'express';
   Class responsible for prepare express server. Load here any additional configurations, middlewares, handlers, routes.
 */
 class Express {
-  public server: express.Application;
+  private server: express.Application;
 
   constructor() {
     this.server = express();
